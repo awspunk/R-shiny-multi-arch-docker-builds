@@ -1,0 +1,9 @@
+version: "3"
+services:
+  helloworld:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.arm
+    ports:
+      - 3838:3838
+    restart: always
