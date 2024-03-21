@@ -39,6 +39,6 @@ For convenience, pre-built images are available and can be run directly:
 
 `docker run -d -p 3838:3838 --name hello awspunk/hello:latest`
 
-Once the container is running, the R Shiny application can be accessed at: http://localhost:3838/hello
+Once the container is running, the R Shiny application can be accessed at: http://localhost:3838/
 
 The repository provides Docker images for both arm and amd64 architectures. Docker will automatically select the appropriate image based on your machine's CPU architecture, facilitating seamless deployment across different platforms.
